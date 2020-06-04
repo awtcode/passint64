@@ -1,0 +1,1 @@
+dymain.bat & dyside.bat
