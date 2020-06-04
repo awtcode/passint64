@@ -4,6 +4,7 @@
 
 
 EMSCRIPTEN_KEEPALIVE int64_t fnLongLong(int arg, int arg1) {
+  printf("fnLongLong+\n");
   GVStruct* temp = new GVStruct;
   int64_t temp1 = 9223372036854775807 - 100;
   if (arg > 0) {
